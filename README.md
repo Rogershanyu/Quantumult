@@ -37,25 +37,27 @@
         - #Debian/Ubuntu系统 
         ```
         curl -sL https://deb.nodesource.com/setup_10.x | bash -
+        ```
+        ```
         apt install -y nodejs git
+        ```
         -#CentOS系统 
         ```
         curl -sL https://rpm.nodesource.com/setup_10.x | bash -
+        ```
+        ```
         yum install nodejs git -y
         ```
 2. 下载github里面的UnblockNeteaseMusic项目
-        ```
-        git clone https://github.com/nondanee/UnblockNeteaseMusic.git
-        cd UnblockNeteaseMusic
-        ```
-~~运行  node app.js (解锁后存在部分歌曲不能播放问题)   
-# 启动命令改为 node app.js -p port1:port2 (port2 是用来内部转发的 https 端口) 
-node app.js -s -e https://music.163.com -p 8080:8081~~
+```
+git clone https://github.com/nondanee/UnblockNeteaseMusic.git
+cd UnblockNeteaseMusic
+```
 
-运行端口默认为8080，需要想修改可以编辑app.js文件的config.port对应的数值
-3、开机自启
-这里使用Systemd进程守护，只适用于CentOS 7、Debian 8+、Ubuntu 16+等。
-#修改下ExecStartPre源码路径即可，然后一起复制到SSH运行 
+3. 开机自启
+    这里使用Systemd进程守护，只适用于CentOS 7、Debian 8+、Ubuntu 16+等。
+    #修改下ExecStartPre源码路径即可，然后一起复制到SSH运行 
+```
 cat > /etc/systemd/system/UnblockNeteaseMusic.service <<EOF
 [Unit]
 Description=UnblockNeteaseMusic
@@ -73,8 +75,10 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 EOF
-启动并开机自启：
+```
+4. 启动并开机自启：
+```
 systemctl start UnblockNeteaseMusic 
 systemctl enable UnblockNeteaseMusic 
-
 systemctl status UnblockNeteaseMusic 
+```
