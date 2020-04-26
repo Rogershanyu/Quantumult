@@ -1,9 +1,12 @@
 1. 第一步:
     - 设置-订阅-右上'+'-服务器
     - 名称(自己命名)
-    - 链接(复制下面,ps:我的服务器卡)```https://sub.bianyuan.xyz/sub?target=quan&url=https%3A//raw.githubusercontent.com/Rogershanyu/QuantumultX/master/NeteaseMusic.txt&list=true&include=&exclude=&emoji=false&fdn=true```
+    - 链接(复制下面,ps:我的服务器卡)
+    ```
+    https://sub.bianyuan.xyz/sub?target=quan&url=https%3A//raw.githubusercontent.com/Rogershanyu/QuantumultX/master/NeteaseMusic.txt&list=true&include=&exclude=&emoji=false&fdn=true
+    ```
     - 保存
-    - 右拉刚刚添加的服务器-点更新
+    - 右拉刚刚添加的服务器点更新
 2. 第二步:
     - 设置-分流-右上'+'
     - 类型:user-agent
