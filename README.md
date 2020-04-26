@@ -34,20 +34,16 @@
 
 搭服务器教程(自己备一台vps):
 1. 安装Nodejs
-        - #Debian/Ubuntu系统 
-        ```
-        curl -sL https://deb.nodesource.com/setup_10.x | bash -
-        ```
-        ```
-        apt install -y nodejs git
-        ```
-        -#CentOS系统 
-        ```
-        curl -sL https://rpm.nodesource.com/setup_10.x | bash -
-        ```
-        ```
-        yum install nodejs git -y
-        ```
+- #Debian/Ubuntu系统 
+ ```
+curl -sL https://deb.nodesource.com/setup_10.x | bash -
+apt install -y nodejs git
+```
+- #CentOS系统 
+```
+curl -sL https://rpm.nodesource.com/setup_10.x | bash -
+yum install nodejs git -y
+```
 2. 下载github里面的UnblockNeteaseMusic项目
 ```
 git clone https://github.com/nondanee/UnblockNeteaseMusic.git
