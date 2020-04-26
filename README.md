@@ -40,10 +40,11 @@
         curl -sL https://rpm.nodesource.com/setup_10.x | bash -
         yum install nodejs git -y
         ```
-2、运行UnblockNeteaseMusic
-git clone https://github.com/nondanee/UnblockNeteaseMusic.git
- cd UnblockNeteaseMusic 
-
+2. 下载github里面的UnblockNeteaseMusic项目
+        ```
+        git clone https://github.com/nondanee/UnblockNeteaseMusic.git
+        cd UnblockNeteaseMusic
+        ```
 运行  node app.js (解锁后存在部分歌曲不能播放问题)   
 # 启动命令改为 node app.js -p port1:port2 (port2 是用来内部转发的 https 端口) 
 node app.js -s -e https://music.163.com -p 8080:8081
