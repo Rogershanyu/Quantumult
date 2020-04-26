@@ -48,9 +48,9 @@
         git clone https://github.com/nondanee/UnblockNeteaseMusic.git
         cd UnblockNeteaseMusic
         ```
-运行  node app.js (解锁后存在部分歌曲不能播放问题)   
+~~运行  node app.js (解锁后存在部分歌曲不能播放问题)   
 # 启动命令改为 node app.js -p port1:port2 (port2 是用来内部转发的 https 端口) 
-node app.js -s -e https://music.163.com -p 8080:8081
+node app.js -s -e https://music.163.com -p 8080:8081~~
 
 运行端口默认为8080，需要想修改可以编辑app.js文件的config.port对应的数值
 3、开机自启
