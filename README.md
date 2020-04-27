@@ -7,6 +7,8 @@
     - 保存
     - 右拉刚刚添加的服务器点更新
 2. 第二步:
+    - 用safari浏览器打开`https://raw.githubusercontent.com/nondanee/UnblockNeteaseMusic/master/ca.crt`
+3. 第三步:
     - 设置-分流-右上'+'
     - 类型:user-agent
     - 行为:选择第一步添加的服务器(建议选上海节点)
@@ -22,7 +24,7 @@
     user-agent,节点名称,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
     user-agent,节点名称,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**
     ```
-3. 第三步
+4. 第四步
     - 设置-运行模式-自动分流
     - 首页-右上角打开
 
