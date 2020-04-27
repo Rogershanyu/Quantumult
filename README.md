@@ -40,6 +40,8 @@
 - 安装好就进入 设置(手机设置)-通用-关于本机-证书信任设置(最下面) 把UnblockNeteaseMusic Root CA打开,点击继续(这里已经解锁网易云音乐了)
 
 
+![网易云音乐](https://raw.githubusercontent.com/Rogershanyu/Quantumult/master/wyym.jpg)
+
 ---------------------这里给有需要的人看的------------------------  
 搭服务器教程(自己备一台vps):  
 1. 安装Nodejs
